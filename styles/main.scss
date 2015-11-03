@@ -1,0 +1,40 @@
+// Example of a style guide using rem, percents and variables
+
+$headline-text: 3rem; // 300%
+$body-text: 1rem; // 100 %
+$nav-item: 1.25rem; // 125%
+$sub-header: 1.50rem; // 150%
+$byline: .75rem; // 75%
+$headline-margin: 5px;
+
+// font variables
+
+$sans-serif: 'Open sans', sans-serif;
+$serif: 'Slabo 27px', serif;
+
+body {
+  font-size: 16px;
+  font-family: $sans-serif;
+}
+
+h1 {
+  font-size: $headline-text;
+  margin: $headline-margin;
+}
+
+p {
+  font-size: $body-text;
+}
+
+nav li {
+  font-size: $nav-item;
+}
+
+h2 {
+  font-size: $sub-header;
+  margin: $headline-margin;
+}
+
+figcaption {
+  font-size: $byline;
+}
