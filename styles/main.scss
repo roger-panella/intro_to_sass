@@ -9,7 +9,7 @@ $headline-margin: 5px;
 
 // font variables
 
-$sans-serif: 'Open sans', sans-serif;
+$sans-serif: 'Roboto', sans-serif;
 $serif: 'Slabo 27px', serif;
 
 body {
@@ -18,11 +18,13 @@ body {
 }
 
 h1 {
+  font-family: $sans-serif;
   font-size: $headline-text;
   margin: $headline-margin;
 }
 
 p {
+  //font-family: $sans-serif;//
   font-size: $body-text;
 }
 
@@ -31,6 +33,7 @@ nav li {
 }
 
 h2 {
+  font-family: $sans-serif;
   font-size: $sub-header;
   margin: $headline-margin;
 }
